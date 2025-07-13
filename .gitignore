@@ -1,0 +1,36 @@
+.gitignore
+
+# MATLAB temporary and backup files
+*.asv
+*.m~
+*.fig~
+*.mat~
+*.mdl~
+*.slx~
+*.autosave
+*.log
+*.bak
+*.backup
+
+# Simulink generated files
+slprj/
+*.mex*
+*.tlc
+*.tmf
+*.c
+*.obj
+*.dll
+*.so
+*.pdb
+*.lib
+
+# Workspace and output files
+*.mat
+*.fig
+*.out
+*.csv
+*.txt
+
+# User/system-specific files
+.DS_Store
+Thumbs.db
